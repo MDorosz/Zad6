@@ -72,7 +72,7 @@ class Main {
 
     public static void exercise3() throws IOException {
         scan.nextLine();
-        System.out.println("Podaj imie: ");
+        System.out.println("Podaj imie: "); 
         var name = scan.nextLine();
         var wanted = (new Service()).findStudentByName(name);
         if(wanted == null)
